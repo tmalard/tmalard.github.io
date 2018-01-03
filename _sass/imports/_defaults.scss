@@ -1,0 +1,16 @@
+html{height:100%;width:100%;}
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  header{display:flex;flex-flow:row wrap;justify-content:space-between;align-items:flex-start;align-content:space-between;}
+  #content{margin: auto;}
+}
+/* coloring for debugging */
+header,footer{background-color:purple;}
+#content{color:red;}
+a{color:yellow;}
+a:hover{opacity:.8;}
+/* end */

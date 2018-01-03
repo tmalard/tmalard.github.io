@@ -1,0 +1,14 @@
+/* CSS objects (primarily shapes) */
+.side{width:200px;border-bottom:1px solid white;}
+
+.left{
+  transform:rotate(-60deg) translate(0px, 1px);
+  transform-origin:left bottom;
+}
+.right{
+  transform:rotate(60deg) translate(0px, -1px);
+  transform-origin:right top;
+}
+.bottom{
+  transform:translate(0px,0px);
+}
