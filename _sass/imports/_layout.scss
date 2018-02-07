@@ -1,0 +1,23 @@
+header {
+  background-color: rgba(0,0,0,0);
+  position: absolute;
+  width:100%;
+  #logo{position:absolute;left:0%;}
+  #menu{position:absolute;right:0%;}
+  div{
+    padding: 6vh calc(20px + 5vw);
+  }
+  a {
+    color:white;
+    text-decoration:none;
+    font-size: 48px;
+    font-family: Times;
+  }
+  div:hover{
+    opacity:0.8;
+  }
+}
+
+html{
+  #center{position:absolute;right:50%;top:50%;}
+}
