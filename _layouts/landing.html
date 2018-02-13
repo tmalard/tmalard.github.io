@@ -1,15 +1,11 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
-  {% include head.html %}
-  <body>
-    <div class="video-container">
-      <video loop="true" preload="" autoplay="" muted="">
-        <source src="https://puu.sh/zi4mP/ac10aac5eb.mp4" type="video/mp4">
-        <!--source src="https://monopo.co.jp/wp-content/themes/monopo/video/bg2.webm" type="video/webm">
-        <source src="https://monopo.co.jp/wp-content/themes/monopo/video/bg2.ogv" type="video/ogg"-->
-      </video>
-    </div>
-    {% include header.html %}
-    {{ content }}
-  </body>
-</html>
+---
+layout: default
+title: top
+---
+<!-- video reel in bg -->
+<div class="video-container">
+  <video loop="true" preload="" autoplay="" muted="">
+    <source src="https://puu.sh/zi4mP/ac10aac5eb.mp4" type="video/mp4">
+  </video>
+</div>
+{{ content }}
