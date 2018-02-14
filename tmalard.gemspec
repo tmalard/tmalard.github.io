@@ -1,7 +1,7 @@
 # coding: utf-8
 
 Gem::Specification.new do |spec|
-  spec.name          = "triangular"
+  spec.name          = "tmalard"
   spec.version       = "0.1.0"
   spec.authors       = ["Trevor Malard"]
   spec.email         = ["25315226+fire-pls@users.noreply.github.com"]
