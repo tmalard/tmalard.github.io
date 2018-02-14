@@ -4,13 +4,39 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  header{display:flex;flex-flow:row wrap;justify-content:space-between;align-items:flex-start;align-content:space-between;}
-  #content{margin: auto;}
+  justify-content: flex-end;
+  #content{margin: auto;position:relative;}
 }
-/* coloring for debugging *//*
-header,footer{background-color:purple;}
-#content{color:red;}
-a{color:yellow;}
-a:hover{opacity:.8;}
-/* end */
+
+.landing{
+  overflow: hidden;
+  background-color: rgba(0,0,0,0.75);
+}
+
+video{
+  margin: auto;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  visibility: visible;
+  opacity: 1;
+  width: auto;
+  height: 110vh;
+}
+
+.video-container{
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  overflow: hidden;
+  background-size: cover;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-image: none;
+}

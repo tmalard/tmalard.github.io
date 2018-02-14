@@ -1,23 +1,23 @@
-header {
-  background-color: rgba(0,0,0,0);
+#rsdz {
   position: absolute;
-  width:100%;
-  #logo{position:absolute;left:0%;}
-  #menu{position:absolute;right:0%;}
-  div{
-    padding: 6vh calc(20px + 5vw);
-  }
-  a {
-    color:white;
-    text-decoration:none;
-    font-size: 48px;
-    font-family: Times;
-  }
-  div:hover{
-    opacity:0.8;
-  }
+  right: 0%;
+  padding: 40px;
+  font-size: 48px;
+  color: rgb(103,119,128);
+  opacity: 0.33;
+}
+#rsdz:hover{
+  opacity:0.9;
 }
 
-html{
-  #center{position:absolute;right:50%;top:50%;}
+.landing-msg {
+  text-align: left;
+  h1 {
+    font-family: "Peddana";
+    font-size: 30px;
+  }
+  .landing-link{text-align:right;}
+  .landing-link:hover{width:100%;background-color:white;}
+  a{padding:8px 0px 8px 24px;}
+  a:hover{color:black;}
 }
