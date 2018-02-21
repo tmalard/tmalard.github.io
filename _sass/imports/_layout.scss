@@ -10,17 +10,19 @@
   opacity:0.9;
 }
 
-.landing-msg {
-  padding: 0px 3px;
+.landing {
   border-top: 1px solid rgba(255,255,255,0.8);
   border-bottom: 1px solid rgba(255,255,255,0.8);
+}
+
+.landing-msg {
   text-align: left;
   h1 {
     font-family: "Peddana";
     font-size: 30px;
   }
   .landing-link{text-align:right;}
-  .landing-link:hover{width:100%;background-color:white;}
+  .landing-link:hover{background-color:white;}
   a{padding:8px 0px 8px 24px;}
   a:hover{color:black;}
 }
