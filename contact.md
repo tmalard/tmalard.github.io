@@ -3,6 +3,6 @@ layout: default
 title: contact
 ---
 
-<div id="content">
- hey
+<div id="contact">
+  <a href="mailto:trevormalard@gmail.com">Business inquiries</a>
 </div>

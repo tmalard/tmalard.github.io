@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {% include head.html %}
+  <body>
+    <a href="/" style="height:100%;width:100%;display:flex;justify-content:center;">
+      <div style="position:absolute;top:50%;text-align:center;">
+        {{ content }}
+      </div>
+    </a>
+  </body>
+</html>
