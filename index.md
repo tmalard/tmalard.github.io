@@ -2,7 +2,7 @@
 layout: landing
 title: top
 ---
-<div class="landing">
+<div id="landing">
 
   <div class="landing-msg">
     <h1>trevor malard</h1>

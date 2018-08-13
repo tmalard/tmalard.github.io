@@ -2,4 +2,7 @@
 layout: default
 title: contact
 ---
-<a href="mailto:trevormalard@gmail.com">Business inquiries</a>
+<div id="contact">
+  <p>tokyo-based work inquiries</p>
+  <a href="mailto:{{ site.social.email }}">contact via email</a>
+</div>
