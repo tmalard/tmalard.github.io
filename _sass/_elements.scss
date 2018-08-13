@@ -21,8 +21,7 @@
     font-family: "Peddana";
     font-size: 30px;
   }
-  .landing-link{text-align:right;}
-  .landing-link:hover{background-color:white;}
-  a{padding:8px 0px 8px 24px;}
-  a:hover{color:black;}
+  .landing-link{width:100%;}
+  a{text-align:right;}
+  a:hover{.landing-link{background-color:white;color:black;}}
 }

@@ -2,7 +2,6 @@
 layout: landing
 title: top
 ---
-
 <div class="landing">
 
   <div class="landing-msg">
@@ -11,7 +10,7 @@ title: top
     {% assign landing_links = site.links %}
 
     {% for link in landing_links %}
-      <br><div class="landing-link"><a href="/{{ link }}">{{ link | remove: "/" }}</a></div>
+      <br><a href="/{{ link }}"><div class="landing-link">{{ link }}</div></a>
     {% endfor %}
   </div>
 

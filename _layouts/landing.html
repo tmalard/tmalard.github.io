@@ -1,13 +1,15 @@
----
-layout: default
-title: top
----
-<!-- video reel in bg -->
-<div class="video-container">
-  <video loop="true" preload="" autoplay="" muted="">
-    <source src="https://puu.sh/zi4mP/ac10aac5eb.mp4" type="video/mp4">
-  </video>
-</div>
-<div id="content">
-  {{ content }}
-</div>
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {% include head.html %}
+  <body>
+    <div class="video-container">
+      <video loop="true" preload autoplay muted>
+        <source alt="/assets/bg.mp4" src="https://puu.sh/zi4mP/ac10aac5eb.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div id='content'>
+      {{ content }}
+    </div>
+    <a href="/" id="rsdz">rsdz</a>
+  </body>
+</html>
