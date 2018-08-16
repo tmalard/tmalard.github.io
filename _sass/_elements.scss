@@ -1,0 +1,32 @@
+#rsdz {
+  position: absolute;
+  right: 0%;
+  padding: 40px;
+  font-size: 48px;
+  color: rgb(103,119,128);
+  opacity: 0.33;
+}
+#rsdz:hover{opacity:0.9;}
+
+#landing-page {
+  overflow: hidden;
+  background-color: rgba(0,0,0,0.75);
+  border-top: 1px solid rgba(255,255,255,0.8);
+  border-bottom: 1px solid rgba(255,255,255,0.8);
+  .landing-msg {
+    text-align: left;
+    h1 {
+      font-family: "Peddana";
+      font-size: 30px;
+    }
+    .landing-link{width:100%;}
+    a{text-align:right;}
+    a:hover{.landing-link{background-color:white;color:black;}}
+  }
+}
+
+#contact-page {
+  text-align: center;
+  a{cursor: pointer;}
+  a:hover{color:rgb(103,119,128);}
+}
