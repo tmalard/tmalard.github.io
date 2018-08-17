@@ -1,10 +1,8 @@
 # frozen_string_literal: true
-
+ruby '2.5.1'
 source "https://rubygems.org"
 
-gem "github-pages", group: :jekyll_plugins
-
-
 group :jekyll_plugins do
-    gem 'jekyll-livereload'
+  gem "github-pages"
+  gem 'jekyll-livereload'
 end
