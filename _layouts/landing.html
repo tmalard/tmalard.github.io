@@ -3,9 +3,10 @@
   {% include head.html %}
   <body>
     <div class="video-container">
-      <video id="bgLoop"loop="true" preload autoplay muted>
+      <video id="bgLoop"loop autoplay muted>
         <source src="https://github.com/tmalard/tmalard.github.io/blob/source/assets/bg.mp4?raw=true" type="video/mp4">
       </video>
+      <script>document.getElementById("bgLoop").play();</script>
     </div>
     <div id='content'>
       <div id="landing-page">
@@ -14,5 +15,4 @@
     </div>
     <a href="/" id="rsdz">tmalard</a>
   </body>
-  <script>document.getElementById("bgLoop").play()</script>
 </html>
