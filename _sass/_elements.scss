@@ -5,8 +5,35 @@
   font-size: 48px;
   color: rgb(103,119,128);
   opacity: 0.33;
+  &:hover {opacity:0.9;}
 }
-#top:hover{opacity:0.9;}
+
+.bg-loop-container {
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  overflow: hidden;
+  background-size: cover;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-image: none;
+  .bg-loop {
+    margin: auto;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: visible;
+    opacity: 1;
+    width: auto;
+    height: auto;
+  }
+}
 
 #landing-page {
   overflow: hidden;
@@ -14,14 +41,27 @@
   border-top: 1px solid rgba(255,255,255,0.8);
   border-bottom: 1px solid rgba(255,255,255,0.8);
   .landing-msg {
-    text-align: left;
-    h1 {
-      font-family: "Peddana";
-      font-size: 30px;
+    h1 {font-size: 1.5em;}
+    .tagline {
+      padding: 0.5em 0;
+      font-family: monospace;
     }
-    .landing-link{width:100%;}
-    a{text-align:right;}
-    a:hover{.landing-link{background-color:white;color:black;}}
+
+    text-align: left;
+
+    .landing-link {
+      width:100%;
+      padding: 0.5em 0;
+    }
+
+    a {text-align:right;}
+    a:hover {
+      .landing-link {
+        background-color:white;
+        color:black;
+      }
+    }
+
   }
 }
 
@@ -30,3 +70,4 @@
   a{cursor: pointer;}
   a:hover{color:rgb(103,119,128);}
 }
+

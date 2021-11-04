@@ -1,5 +1,4 @@
 ---
-layout: default
 title: contact
 ---
 <div id="contact-page">

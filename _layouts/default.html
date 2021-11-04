@@ -2,9 +2,14 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   {% include head.html %}
   <body>
-    <div id="content">
+    {% if page.url == "/" %}
+    {% include index-video.html %}
+    {% endif %}
+    <main id='content'>
       {{ content }}
-    </div>
+    </main>
+    {% unless page.omit_logo == "true" %}
     <a href="/" id="top">top</a>
+    {% endunless %}
   </body>
 </html>

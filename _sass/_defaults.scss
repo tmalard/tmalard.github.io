@@ -7,31 +7,3 @@ body {
   justify-content: flex-end;
   #content{margin: auto;position:relative;}
 }
-
-video{
-  margin: auto;
-  position: absolute;
-  z-index: -1;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  visibility: visible;
-  opacity: 1;
-  width: auto;
-  height: auto;
-}
-
-.video-container{
-  position: absolute;
-  z-index: -1;
-  top: 0px;
-  left: 0px;
-  bottom: 0px;
-  right: 0px;
-  overflow: hidden;
-  background-size: cover;
-  background-color: transparent;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-image: none;
-}

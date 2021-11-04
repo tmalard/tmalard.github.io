@@ -11,3 +11,16 @@ social:
   email: Y29udGFjdEB0bWFsYXJkLmpw
   vimeo: https://vimeo.com/tmalard
   github: https://github.com/fire-pls
+
+defaults:
+  static_files:
+    splash_video: https://raw.githubusercontent.com/tmalard/tmalard.github.io/source/assets/bg.mp4
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+static_files:
+  splash_video: /assets/bg.mp4
