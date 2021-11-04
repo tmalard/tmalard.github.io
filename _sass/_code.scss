@@ -1,0 +1,47 @@
+// .code-container {}
+
+.code-section-divider {
+  margin: 1em 0;
+  width: 2em;
+}
+
+.code-project-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 40em;
+}
+
+.code-project-url {
+  padding: 0.5em;
+  font-family: monospace;
+  flex: 0 1 30%;
+  &:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+  }
+}
+
+/* Monokai scheme:
+  constant: cyan + italicized
+  symbols: pink
+  numbers: purple
+  strings: yellow/beige
+*/
+
+.monokai-constant {
+  color: #66d9ef;
+  font-style: italic;
+}
+
+.monokai-symbol {
+  color: #f92672;
+}
+
+.monokai-number {
+  color: #ae81ff;
+}
+
+.monokai-string {
+  color: #e6db74;
+}

@@ -1,5 +1,5 @@
 title: Trevor Malard
-description: Trevor Malard, Tokyo-based digital creative. Web design and Video production.
+description: Trevor Malard, Tokyo-based digital creative. Software development and Video production.
 
 links:
   - code
@@ -13,13 +13,14 @@ social:
   github: https://github.com/tmalard
 
 collections:
-  open_source_contributions:
+  open_source:
+    sort_by: year
     output: true
     permalink: /open-source/:name
-  closed_source_contributions:
+  closed_source:
     output: true
     permalink: /closed-source/:name
-  archived_contributions:
+  archived_source:
     output: true
     permalink: /archived/:name
   video_content:

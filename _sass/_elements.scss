@@ -35,23 +35,23 @@
   }
 }
 
-#landing-page {
+.landing-container {
   overflow: hidden;
   background-color: rgba(0,0,0,0.75);
   border-top: 1px solid rgba(255,255,255,0.8);
   border-bottom: 1px solid rgba(255,255,255,0.8);
   .landing-msg {
+    text-align: center;
+
     h1 {font-size: 1.5em;}
     .tagline {
-      padding: 0.5em 0;
+      padding: 0.5em;
       font-family: monospace;
     }
 
-    text-align: left;
 
     .landing-link {
-      width:100%;
-      padding: 0.5em 0;
+      padding: 0.5em;
     }
 
     a {text-align:right;}
@@ -66,9 +66,13 @@
   }
 }
 
-#contact-page {
+.contact-container {
   text-align: center;
-  a{cursor: pointer;}
-  a:hover{color:rgb(103,119,128);}
+  a {
+    cursor: pointer;
+    &:hover {
+      color: rgb(103,119,128);
+    }
+  }
 }
 

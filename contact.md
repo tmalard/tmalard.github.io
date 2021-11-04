@@ -1,7 +1,7 @@
 ---
 title: contact
 ---
-<div id="contact-page">
+<div class="contact-container">
   <p>tokyo-based work inquiries</p>
   <a id="b64-email">contact via email</a>
 </div>
