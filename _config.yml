@@ -2,11 +2,12 @@ title: Trevor Malard
 description: Trevor Malard, Tokyo-based digital creative. Web design and Video production.
 
 links:
+  - code
   - video
-  - web
   - contact
 
+# F-u scraping bots 😡
 social:
-  email: business@tmalard.com
+  email: Y29udGFjdEB0bWFsYXJkLmpw
   vimeo: https://vimeo.com/tmalard
   github: https://github.com/fire-pls
