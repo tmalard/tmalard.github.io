@@ -1,10 +1,9 @@
-# frozen_string_literal: true
-ruby '2.5.1'
+ruby "3.0.2"
 source "https://rubygems.org"
 
-
-gem "jekyll", '3.8.6'
+gem "jekyll", "4.2.1"
 
 group :development do
-  gem 'jekyll-livereload'
+  gem "standard"
+  gem "webrick"
 end
