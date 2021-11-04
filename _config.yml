@@ -10,17 +10,32 @@ links:
 social:
   email: Y29udGFjdEB0bWFsYXJkLmpw
   vimeo: https://vimeo.com/tmalard
-  github: https://github.com/fire-pls
+  github: https://github.com/tmalard
+
+collections:
+  open_source_contributions:
+    output: true
+    permalink: /open-source/:name
+  closed_source_contributions:
+    output: true
+    permalink: /closed-source/:name
+  archived_contributions:
+    output: true
+    permalink: /archived/:name
+  video_content:
+    output: true
+    permalink: /video/:name
+
+fallbacks:
+  splash_video: https://raw.githubusercontent.com/tmalard/tmalard.github.io/source/assets/bg.mp4
+
+static_files:
+  splash_video: /assets/bg.mp4
 
 defaults:
-  static_files:
-    splash_video: https://raw.githubusercontent.com/tmalard/tmalard.github.io/source/assets/bg.mp4
   -
     scope:
       path: ""
       type: "pages"
     values:
       layout: "default"
-
-static_files:
-  splash_video: /assets/bg.mp4

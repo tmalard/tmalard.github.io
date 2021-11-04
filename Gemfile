@@ -1,7 +1,7 @@
 ruby "3.0.2"
 source "https://rubygems.org"
 
-gem "jekyll", "4.2.1"
+gem "github-pages", group: :jekyll_plugins
 
 group :development do
   gem "standard"
