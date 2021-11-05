@@ -1,6 +1,6 @@
 ---
 title: washoku-macros
-year: 2021
+year: 2022
 description: Nutrition macros and meal prep, focusing on common foods sold in Japan.
 kind: website
 layout: default

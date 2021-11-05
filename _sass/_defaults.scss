@@ -5,5 +5,46 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  #content{margin: auto;position:relative;}
+}
+
+#content {
+  margin: auto;
+  position: relative;
+}
+
+#top {
+  position: absolute;
+  right: 0%;
+  padding: 40px;
+  font-size: 48px;
+  color: rgb(103,119,128);
+  opacity: 0.33;
+  &:hover {opacity:0.9;}
+}
+
+.bg-loop-container {
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  overflow: hidden;
+  background-size: cover;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-image: none;
+  .bg-loop-video {
+    margin: auto;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: visible;
+    opacity: 1;
+    width: auto;
+    height: auto;
+  }
 }

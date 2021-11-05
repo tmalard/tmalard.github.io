@@ -1,7 +1,10 @@
 ---
 title: closed source contributions
 ---
-<div class="code-container">
-  <p>my contributions to private codebases. projects with an NDA have been omitted.</p>
-  <hr class="code-section-divider">
+<div class="page-content-container">
+  <header>
+    <p>my contributions to private codebases. projects with an NDA have been omitted.</p>
+  </header>
+
+  <hr class="page-content-divider">
 </div>

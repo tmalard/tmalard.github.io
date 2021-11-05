@@ -1,0 +1,23 @@
+// Styles which can/are used in multiple places throughout site
+
+// Wrapper for the current page's content. Typically has header, divider, then a collection section
+.page-content-container {
+  max-width: 40em;
+}
+
+.page-content-divider {
+  margin: 1em 0;
+  width: 2em;
+}
+
+.page-content-collection-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.page-content-collection-item {
+  padding: 0.5em;
+  font-family: monospace;
+  flex: 0 1 30%;
+}

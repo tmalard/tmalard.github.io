@@ -1,7 +1,7 @@
 {% assign video = site.static_files | where_exp: "item", "item.name == 'bg.mp4'" %}
 
 <div class="bg-loop-container">
-  <video class="bg-loop"loop autoplay muted>
+  <video class="bg-loop-video"loop autoplay muted>
     <source src="{{ video[0].path | site.fallbacks.splash_video }}" type="video/mp4">
   </video>
 </div>

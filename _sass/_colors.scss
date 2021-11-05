@@ -1,0 +1,23 @@
+/* Monokai scheme:
+  constant: cyan + italicized
+  symbols: pink
+  numbers: purple
+  strings: yellow/beige
+*/
+
+.monokai-constant {
+  color: #66d9ef;
+  font-style: italic;
+}
+
+.monokai-symbol {
+  color: #f92672;
+}
+
+.monokai-number {
+  color: #ae81ff;
+}
+
+.monokai-string {
+  color: #e6db74;
+}
